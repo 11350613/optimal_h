@@ -1,11 +1,11 @@
 ![](images/semicircle.png)
 
 As shown in the figure, a block with a semicircular groove is initially at rest on a smooth horizontal floor.
-mass \(=M\), radius \(=R\).
+mass $=M$, radius $=R$.
 
 $$M=u m,\quad u\in(0,+\infty)$$
 
-A small ball, modeled as a point particle of mass \(m\), starts from the left top end of the semicircular groove with an initial velocity \(\overrightarrow{v}_0\) directed vertically downward.
+A small ball, modeled as a point particle of mass $m$, starts from the left top end of the semicircular groove with an initial velocity $\overrightarrow{v}_0$ directed vertically downward.
 
 Let the horizontal plane through the ball’s initial position be the zero-potential-energy plane.
 
@@ -179,7 +179,7 @@ $\because u\in(0,+\infty)$,
 
 $$\therefore 2u+1>0,\quad\Delta=u(17u+8)(u+1)^2>0$$
 
-\(B(\varepsilon)=0\) has exactly two distinct real roots:
+$B(\varepsilon)=0$ has exactly two distinct real roots:
 
 $$\varepsilon_1=\frac{u+1}{2(2u+1)}\left(5u+2-\sqrt{u(17u+8)}\right)$$
 
