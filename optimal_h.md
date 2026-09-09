@@ -1,15 +1,19 @@
 ![](images/semicircle.png)
 
-As shown in the figure, a block with a semicircular groove is initially at rest on a smooth horizontal floor.
+As shown in the figure, a block with a semicircular groove is initially at rest on a horizontal floor.
 mass $=M$, radius $=R$.
 
-$$M=u m,\quad u\in(0,+\infty)$$
+```math
+M=u m,\quad u\in(0,+\infty)
+```
 
 A small ball, modeled as a point particle of mass $m$, starts from the left top end of the semicircular groove with an initial velocity $\overrightarrow{v}_0$ directed vertically downward.
 
 Let the horizontal plane through the ball’s initial position be the zero-potential-energy plane.
 
-$$E_{p,m}=-mgh$$
+```math
+E_{p,m}=-mgh
+```
 
 All contacting surfaces are frictionless.
 
@@ -19,11 +23,17 @@ Find $h$ at which the ball’s speed reaches its maximum.
 
 if $M=2m,\ |\overrightarrow{v}_0|=0$
 
-$$0=\frac12 m v_{\text{abs}}^2+(-mgh)+\frac12(2m)v_{\text{tra}}^2 \tag{1}$$
+```math
+0=\frac12 m v_{\text{abs}}^2+(-mgh)+\frac12(2m)v_{\text{tra}}^2
+```
 
-$$h=R\sin\theta$$
+```math
+h=R\sin\theta
+```
 
-$$\theta \in [0, \frac{\pi}{2}]$$
+```math
+\theta \in [0, \frac{\pi}{2}]
+```
 
 $\displaystyle \overrightarrow{v}_{\text{abs}}=\overrightarrow{v}_{\text{tra}}+\overrightarrow{v}_{\text{rel}}$
 
@@ -37,47 +47,73 @@ $\therefore \displaystyle \overrightarrow{v}_{\text{abs}}\cdot\hat{\mathbf{x}}>0
 
 $\displaystyle \forall h\in[0,R]:$
 
-$$v_{\text{tra}}^2+v_{\text{rel}}^2-2|\overrightarrow{v}_{\text{tra}}||\overrightarrow{v}_{\text{rel}}|\cos\left(\frac{\pi}{2}-\theta\right)=v_{\text{abs}}^2 \tag{2}$$
+```math
+v_{\text{tra}}^2+v_{\text{rel}}^2-2|\overrightarrow{v}_{\text{tra}}||\overrightarrow{v}_{\text{rel}}|\cos\left(\frac{\pi}{2}-\theta\right)=v_{\text{abs}}^2
+```
 
-$$(2m)|\overrightarrow{v}_{\text{tra}}|=m\left(|\overrightarrow{v}_{\text{rel}}|\sin\theta-|\overrightarrow{v}_{\text{tra}}|\right) \tag{3}$$
+```math
+(2m)|\overrightarrow{v}_{\text{tra}}|=m\left(|\overrightarrow{v}_{\text{rel}}|\sin\theta-|\overrightarrow{v}_{\text{tra}}|\right)
+```
 
 We obtain
 
-$$v_{\text{abs}}^2=\left(\frac{2g}{3}\right)\left(\frac{9R^2h-5h^3}{3R^2-h^2}\right)$$
+```math
+v_{\text{abs}}^2=\left(\frac{2g}{3}\right)\left(\frac{9R^2h-5h^3}{3R^2-h^2}\right)
+```
 
 Let $\lambda=\frac{h}{R}\in[0,1]$
 
-$$v_{\text{abs}}^2=\frac{2gR}{3}\cdot\frac{\lambda(9-5\lambda^2)}{3-\lambda^2}$$
+```math
+v_{\text{abs}}^2=\frac{2gR}{3}\cdot\frac{\lambda(9-5\lambda^2)}{3-\lambda^2}
+```
 
 $v_{\text{abs}}^2(\lambda)$ is continuous on $[0,1]$ and differentiable on $(0,1)$
 
-$$h_{\text{optimal}}=\sqrt{\frac{18-3\sqrt{21}}{5}}\,R\approx0.92R$$
+```math
+h_{\text{optimal}}=\sqrt{\frac{18-3\sqrt{21}}{5}}\,R\approx0.92R
+```
 
 ---
 
 if $M=um,\ |\overrightarrow{v}_0|\ge0$
 
-$$u\in(0,+\infty),\ h\in[0,R]$$
+```math
+u\in(0,+\infty),\ h\in[0,R]
+```
 
-$$h=R\sin\theta$$
+```math
+h=R\sin\theta
+```
 
-$$v_{\text{tra}}^2+v_{\text{rel}}^2-2|\overrightarrow{v}_{\text{tra}}||\overrightarrow{v}_{\text{rel}}|\cos\left(\frac{\pi}{2}-\theta\right)=v_{\text{abs}}^2$$
+```math
+v_{\text{tra}}^2+v_{\text{rel}}^2-2|\overrightarrow{v}_{\text{tra}}||\overrightarrow{v}_{\text{rel}}|\cos\left(\frac{\pi}{2}-\theta\right)=v_{\text{abs}}^2
+```
 
-$$\frac12 m v_0^2=\frac12 m v_{\text{abs}}^2+(-mgh)+\frac12(um)v_{\text{tra}}^2$$
+```math
+\frac12 m v_0^2=\frac12 m v_{\text{abs}}^2+(-mgh)+\frac12(um)v_{\text{tra}}^2
+```
 
-$$(um)|\overrightarrow{v}_{\text{tra}}|=m\left(|\overrightarrow{v}_{\text{rel}}|\sin\theta-|\overrightarrow{v}_{\text{tra}}|\right)$$
+```math
+(um)|\overrightarrow{v}_{\text{tra}}|=m\left(|\overrightarrow{v}_{\text{rel}}|\sin\theta-|\overrightarrow{v}_{\text{tra}}|\right)
+```
 
 These yield
 
-$$v_{\text{abs}}^2=(2gh+v_0^2)\frac{(u+1)^2R^2-(2u+1)h^2}{(u+1)\left[(u+1)R^2-h^2\right]}$$
+```math
+v_{\text{abs}}^2=(2gh+v_0^2)\frac{(u+1)^2R^2-(2u+1)h^2}{(u+1)\left[(u+1)R^2-h^2\right]}
+```
 
 $v_{\text{abs}}^2(h)$ is continuous on $[0,R]$ and differentiable on $(0,R)$
 
-$$\frac{d}{dh}\left(v_{\text{abs}}^2\right)=\frac{2g}{(u+1)\left[(u+1)R^2-h^2\right]^2}\left[(2u+1)h^4-(u+1)(5u+2)R^2h^2-u(u+1)\frac{v_0^2R^2}{g}h+(u+1)^3R^4\right]$$
+```math
+\frac{d}{dh}\left(v_{\text{abs}}^2\right)=\frac{2g}{(u+1)\left[(u+1)R^2-h^2\right]^2}\left[(2u+1)h^4-(u+1)(5u+2)R^2h^2-u(u+1)\frac{v_0^2R^2}{g}h+(u+1)^3R^4\right]
+```
 
 Let $\displaystyle f(h)=(2u+1)h^4-(u+1)(5u+2)R^2h^2-u(u+1)\frac{v_0^2R^2}{g}h+(u+1)^3R^4$
 
-$$\left\{h\in[0,R]\;\middle|\;v_{\text{abs}}^2(h)=\max_{h\in[0,R]}v_{\text{abs}}^2\right\}\subseteq\left\{h\in[0,R]\;\middle|\;f(h)=0\right\}\cup\{0,R\}$$
+```math
+\left\{h\in[0,R]\;\middle|\;v_{\text{abs}}^2(h)=\max_{h\in[0,R]}v_{\text{abs}}^2\right\}\subseteq\left\{h\in[0,R]\;\middle|\;f(h)=0\right\}\cup\{0,R\}
+```
 
 ```python
 from numpy.polynomial import Polynomial
@@ -161,31 +197,47 @@ optimal_h
 
 if $M=um,\ |\overrightarrow{v}_0|=0$
 
-$$v_{\text{abs}}^2=(2gh)\frac{(u+1)^2R^2-(2u+1)h^2}{(u+1)\left[(u+1)R^2-h^2\right]}$$
+```math
+v_{\text{abs}}^2=(2gh)\frac{(u+1)^2R^2-(2u+1)h^2}{(u+1)\left[(u+1)R^2-h^2\right]}
+```
 
 Let $\varepsilon=\left(\frac{h}{R}\right)^2\in[0,1]$
 
-$$v_{\text{abs}}^2=(2gR)\sqrt{\varepsilon}\cdot\frac{(u+1)^2-(2u+1)\varepsilon}{(u+1)(u+1-\varepsilon)}$$
+```math
+v_{\text{abs}}^2=(2gR)\sqrt{\varepsilon}\cdot\frac{(u+1)^2-(2u+1)\varepsilon}{(u+1)(u+1-\varepsilon)}
+```
 
 $v_{\text{abs}}^2(\varepsilon)$ is continuous on $[0,1]$ and differentiable on $(0,1)$
 
-$$\frac{d}{d\varepsilon}v_{\text{abs}}^2=(2gR)\frac{(2u+1)\varepsilon^2-(u+1)(5u+2)\varepsilon+(u+1)^3}{2\sqrt{\varepsilon}(u+1)(u+1-\varepsilon)^2}$$
+```math
+\frac{d}{d\varepsilon}v_{\text{abs}}^2=(2gR)\frac{(2u+1)\varepsilon^2-(u+1)(5u+2)\varepsilon+(u+1)^3}{2\sqrt{\varepsilon}(u+1)(u+1-\varepsilon)^2}
+```
 
 $\displaystyle \forall\varepsilon\in(0,1):\quad\operatorname{sgn}\left(\frac{d}{d\varepsilon}v_{\text{abs}}^2\right)=\operatorname{sgn}(B(\varepsilon))$
 
-$$B(\varepsilon)=(2u+1)\varepsilon^2-(u+1)(5u+2)\varepsilon+(u+1)^3$$
+```math
+B(\varepsilon)=(2u+1)\varepsilon^2-(u+1)(5u+2)\varepsilon+(u+1)^3
+```
 
 $\because u\in(0,+\infty)$,
 
-$$\therefore 2u+1>0,\quad\Delta=u(17u+8)(u+1)^2>0$$
+```math
+\therefore 2u+1>0,\quad\Delta=u(17u+8)(u+1)^2>0
+```
 
 $B(\varepsilon)=0$ has exactly two distinct real roots:
 
-$$\varepsilon_1=\frac{u+1}{2(2u+1)}\left(5u+2-\sqrt{u(17u+8)}\right)$$
+```math
+\varepsilon_1=\frac{u+1}{2(2u+1)}\left(5u+2-\sqrt{u(17u+8)}\right)
+```
 
-$$\varepsilon_2=\frac{u+1}{2(2u+1)}\left(5u+2+\sqrt{u(17u+8)}\right)$$
+```math
+\varepsilon_2=\frac{u+1}{2(2u+1)}\left(5u+2+\sqrt{u(17u+8)}\right)
+```
 
-$$\varepsilon_1<\varepsilon_2$$
+```math
+\varepsilon_1<\varepsilon_2
+```
 
 ```python
 In [1]: u = symbols('u')
@@ -232,6 +284,10 @@ $\displaystyle \forall\varepsilon\in(0,1):\quad B(\varepsilon)>0\Longrightarrow\
 
 Cases 1, 2, 3 imply
 
-$$\varepsilon=\min\{1,\varepsilon_1\}$$
+```math
+\varepsilon=\min\{1,\varepsilon_1\}
+```
 
-$$h_{\text{optimal}}=R\cdot\min\left\{1,\sqrt{\frac{u+1}{2(2u+1)}\left(5u+2-\sqrt{u(17u+8)}\right)}\right\}$$
+```math
+h_{\text{optimal}}=R\cdot\min\left\{1,\sqrt{\frac{u+1}{2(2u+1)}\left(5u+2-\sqrt{u(17u+8)}\right)}\right\}
+```
