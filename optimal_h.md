@@ -35,11 +35,11 @@ h=R\sin\theta
 \theta \in [0, \frac{\pi}{2}]
 ```
 
-$\displaystyle \overrightarrow{v}_{\text{abs}}=\overrightarrow{v}_{\text{tra}}+\overrightarrow{v}_{\text{rel}}$
+$`\displaystyle \overrightarrow{v}_{\text{abs}}=\overrightarrow{v}_{\text{tra}}+\overrightarrow{v}_{\text{rel}}`$
 
 $\displaystyle \forall h\in(0,R):$
 
-$\displaystyle \overrightarrow{v}_{\text{tra}}=-|\overrightarrow{v}_{\text{tra}}|\hat{\mathbf{x}},\qquad \overrightarrow{p}_{\text{sys}}\cdot\hat{\mathbf{x}}=0$
+$`\displaystyle \overrightarrow{v}_{\text{tra}}=-|\overrightarrow{v}_{\text{tra}}|\hat{\mathbf{x}},\qquad \overrightarrow{p}_{\text{sys}}\cdot\hat{\mathbf{x}}=0`$
 
 $\therefore \displaystyle \overrightarrow{v}_{\text{abs}}\cdot\hat{\mathbf{x}}>0$
 
@@ -109,7 +109,7 @@ $v_{\text{abs}}^2(h)$ is continuous on $[0,R]$ and differentiable on $(0,R)$
 \frac{d}{dh}\left(v_{\text{abs}}^2\right)=\frac{2g}{(u+1)\left[(u+1)R^2-h^2\right]^2}\left[(2u+1)h^4-(u+1)(5u+2)R^2h^2-u(u+1)\frac{v_0^2R^2}{g}h+(u+1)^3R^4\right]
 ```
 
-Let $\displaystyle f(h)=(2u+1)h^4-(u+1)(5u+2)R^2h^2-u(u+1)\frac{v_0^2R^2}{g}h+(u+1)^3R^4$
+Let $f(h)=(2u+1)h^4-(u+1)(5u+2)R^2h^2-u(u+1)\frac{v_0^2R^2}{g}h+(u+1)^3R^4$
 
 ```math
 \left\{h\in[0,R]\;\middle|\;v_{\text{abs}}^2(h)=\max_{h\in[0,R]}v_{\text{abs}}^2\right\}\subseteq\left\{h\in[0,R]\;\middle|\;f(h)=0\right\}\cup\{0,R\}
