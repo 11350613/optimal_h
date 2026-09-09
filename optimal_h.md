@@ -213,7 +213,7 @@ $v_{\text{abs}}^2(\varepsilon)$ is continuous on $[0,1]$ and differentiable on $
 \frac{d}{d\varepsilon}v_{\text{abs}}^2=(2gR)\frac{(2u+1)\varepsilon^2-(u+1)(5u+2)\varepsilon+(u+1)^3}{2\sqrt{\varepsilon}(u+1)(u+1-\varepsilon)^2}
 ```
 
-$\displaystyle \forall\varepsilon\in(0,1):\quad\operatorname{sgn}\left(\frac{d}{d\varepsilon}v_{\text{abs}}^2\right)=\operatorname{sgn}(B(\varepsilon))$
+$\displaystyle \forall\varepsilon\in(0,1):\quad\text{sgn}\left(\frac{d}{d\varepsilon}v_{\text{abs}}^2\right)=\text{sgn}(B(\varepsilon))$
 
 ```math
 B(\varepsilon)=(2u+1)\varepsilon^2-(u+1)(5u+2)\varepsilon+(u+1)^3
