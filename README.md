@@ -7,7 +7,7 @@ mass $=M$, radius $=R$.
 M=u m,\quad u\in(0,+\infty)
 ```
 
-A small ball, modeled as a point particle of mass $m$, starts from the left top end of the semicircular groove with an initial velocity $\overrightarrow{v}_0$ directed vertically downward.
+A small ball, modeled as a point particle of mass $m$, starts from the upper-left end of the semicircular groove with an initial velocity $\overrightarrow{v}_0$ directed vertically downward.
 
 Let the horizontal plane through the ball’s initial position be the zero-potential-energy plane.
 
